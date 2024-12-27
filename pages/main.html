@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SendiWorld</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>SendiWorld</h1>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#qutoes">Cytaty</a></li>
+                <li><a href="#surprise">Niespodzianka</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Witaj w SendiWorld</h2>
+            <p>Jest to miejsce poświęcone najlepszej dziewczynie na świecie - Sandrze Wójcik. Pamiętaj, ze kocham cie najbardziej w calym multiwersum</p>
+        </section>
+
+        <section id="gallery">
+            <div class="gallery-container">
+                <button class="gallery-btn left-btn">&larr;</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="../photos/photo1.JPG" alt="Photo 1">
+                        <img src="../photos/photo2.jpg" alt="Photo 2">
+                        <img src="../photos/photo3.JPG" alt="Photo 3">
+                        <img src="../photos/photo4.JPG" alt="Photo 4">
+                        <img src="../photos/photo5.jpg" alt="Photo 5">
+                        <img src="../photos/photo6.jpg" alt="Photo 6">
+                        <img src="../photos/photo7.jpg" alt="Photo 7">
+                        <img src="../photos/photo8.jpg" alt="Photo 8">
+                        <img src="../photos/photo9.jpg" alt="Photo 9">
+                        <img src="../photos/photo10.jpg" alt="Photo 10">
+                        <img src="../photos/photo11.jpg" alt="Photo 11">
+                        <img src="../photos/photo12.jpg" alt="Photo 12">
+                        <img src="../photos/photo13.jpg" alt="Photo 13">
+                    </div>
+                </div>
+                <button class="gallery-btn right-btn">&rarr;</button>
+            </div>
+        </section>
+
+        <section id="qutoes">
+            <h2>Cytaty sku</h2>
+            <div class="quotes-container">
+                <blockquote>
+                    Zawsze mi było smutna jak byłam smutna
+                </blockquote>
+                <blockquote>
+                    Muszę poczekać aż mi herbatka wyschnie
+                </blockquote>
+                <blockquote>
+                    Potrzebuje umiłowania
+                </blockquote>
+                <blockquote>
+                    Bez seksu nie dojdziesz.
+                </blockquote>
+                <blockquote>
+                    Podkryć się kocykiem
+                </blockquote>
+                <blockquote>
+                    To jest czosnek?
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="surprise">
+            <div class="surprise-container">
+                <button id="surprise-btn" class="surprise-btn">Kliknij mnie</button>
+                <div id="surprise-content" class="hidden">
+                    <i class="fa-solid fa-heart"></i>
+                    <p>Kocham Cię!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../scripts/galery.js"></script>
+    <script src="../scripts/surprise.js"></script>
+</body>
+</html>
